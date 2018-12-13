@@ -16,6 +16,7 @@
   "author": "Oskari Pöntinen",
   "license": "ISC",
   "dependencies": {
-    "cleverbot.io": "^1.0.4"
+    "cleverbot.io": "^1.0.4",
+    "salabot": "git+https://github.com/morko/salabot.git"
   }
 }
