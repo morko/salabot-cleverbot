@@ -45,7 +45,8 @@ module.exports = function createCleverbotPluginModule(user, apikey) {
     });
   }
 
-  function filter(msg, bot) {
+  async function filter(msg, bot) {
+    let prefix = await bot.prefix.get(msg.guild);
     // if message begins with mention of the bot then replace the mention
     // with cleverbot command
     if (
