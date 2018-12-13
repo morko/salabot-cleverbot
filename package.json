@@ -1,0 +1,21 @@
+{
+  "name": "salabot-cleverbot",
+  "version": "1.0.0",
+  "description": "Salabot plugin for cleverbot interaction in discord.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "salabot",
+    "plugin",
+    "fun",
+    "cleverbot"
+  ],
+  "author": "Oskari Pöntinen",
+  "license": "ISC",
+  "dependencies": {
+    "cleverbot.io": "^1.0.4"
+  }
+}
