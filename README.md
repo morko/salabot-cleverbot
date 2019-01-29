@@ -15,6 +15,8 @@ const Bot = require('salabot').Bot;
 const cleverbot = require('salabot-cleverbot')(your_username, your_apikey);
 
 let bot = new Bot(your_config);
-bot.addModule(cleverbot);
-bot.init().then(() => bot.start(your_bot_token));
+bot.init()
+.then(() => bot.addModule(cleverbot))
+.then(() => bot.start(your_bot_token))
+.catch((err) => console.log(err));
 ```
